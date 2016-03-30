@@ -14,7 +14,7 @@ It supports also UWP apps (Windows 10) and .Net Core.
 
 The **BugGuardian.MVC** library will be available on NuGet
 
-**WARNING**: If you are experiencing an error like *"BugGuardian already has a dependency defined for XXX"*, update your NuGet client to the latest version
+**WARNING**: If you are experiencing an error like *"BugGuardian.MVC already has a dependency defined for XXX"*, update your NuGet client to the latest version
 
 
 ###Usage###
