@@ -20,6 +20,7 @@ The **BugGuardian.MVC** library will be available on NuGet
 ###Usage###
 
 Refer to the [project documentation](https://github.com/n3wt0n/BugGuardian.MVC/wiki/Home) to find more information about this library.
+
 Refer to the [BugGuardian project documentation](https://github.com/n3wt0n/BugGuardian/wiki/Home) to find examples about that.
 
 
