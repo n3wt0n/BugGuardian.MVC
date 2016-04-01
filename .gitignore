@@ -11,10 +11,5 @@
 *.user
 **/project.lock.json
 
-/NuGet/Package/lib/dotnet/*
-/NuGet/Package/lib/net40/*
-/NuGet/Package/lib/net45/*
-/NuGet/Package/lib/win8/*
-/NuGet/Package/lib/wp8/*
-/NuGet/Package/lib/wpa81/*
+/NuGet/Package/lib/*
 *.nupkg
