@@ -2,7 +2,7 @@
 
 namespace DBTek.BugGuardian.MVC.Filters
 {
-    public class BugGuardianHandleErrorAttribute : HandleErrorAttribute
+    public class BugGuardianTaskHandleErrorAttribute : HandleErrorAttribute
     {
         public override void OnException(ExceptionContext filterContext)
         {            
@@ -10,7 +10,8 @@ namespace DBTek.BugGuardian.MVC.Filters
             
             using (var creator = new Creator())
             {
-                creator.AddBugAsync(filterContext.Exception);
+                //Implemented as synchronous because Asp.net doesn't support async filters
+                creator.AddTask(filterContext.Exception);
             }
         }
     }

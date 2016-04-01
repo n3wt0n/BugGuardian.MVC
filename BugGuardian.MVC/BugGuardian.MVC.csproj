@@ -92,7 +92,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filters\BugGuardianHandleErrorAttribute.cs" />
+    <Compile Include="Filters\BugGuardianTaskHandleErrorAttribute.cs" />
+    <Compile Include="Filters\BugGuardianBugHandleErrorAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
