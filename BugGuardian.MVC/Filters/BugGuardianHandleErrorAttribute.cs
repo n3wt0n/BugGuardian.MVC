@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace BugGuardian.MVC.Filters
+namespace DBTek.BugGuardian.MVC.Filters
 {
     public class BugGuardianHandleErrorAttribute : HandleErrorAttribute
     {
@@ -8,7 +8,7 @@ namespace BugGuardian.MVC.Filters
         {            
             base.OnException(filterContext);
             
-            using (var creator = new DBTek.BugGuardian.Creator())
+            using (var creator = new Creator())
             {
                 creator.AddBugAsync(filterContext.Exception);
             }

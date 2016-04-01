@@ -1,4 +1,4 @@
-﻿using BugGuardian.MVC.Filters;
+﻿using DBTek.BugGuardian.MVC.Filters;
 using System.Web.Mvc;
 
 namespace BugGuardian.MVC.TestWebApp

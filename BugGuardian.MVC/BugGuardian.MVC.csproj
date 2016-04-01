@@ -7,8 +7,8 @@
     <ProjectGuid>{B62A1EC4-9DCF-4A62-BCBA-82EFCF1D4D68}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BugGuardian.MVC</RootNamespace>
-    <AssemblyName>BugGuardian.MVC</AssemblyName>
+    <RootNamespace>DBTek.BugGuardian.MVC</RootNamespace>
+    <AssemblyName>DBTek.BugGuardian.MVC</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
