@@ -3,7 +3,7 @@
 	<metadata>
 		<id>DBTek.BugGuardian.MVC</id>
 		<version>1.0.0</version>
-		<title>BugGuardian</title>
+		<title>BugGuardian.MVC</title>
 		<authors>Davide Benvegnu</authors>    
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<projectUrl>https://github.com/n3wt0n/BugGuardian.MVC</projectUrl>
