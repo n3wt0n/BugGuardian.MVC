@@ -9,7 +9,11 @@ It supports projects with .Net Framework 4.0 and above.
 
 ###Installation###
 
-The **BugGuardian.MVC** library will be available on NuGet
+The **BugGuardian.MVC** library is available on [NuGet](https://www.nuget.org/packages/DBTek.BugGuardian.MVC).
+Just search *BugGuardian.MVC* in the **Package Manager GUI** or run the following command in the **Package Manager Console**:
+```
+Install-Package DBTek.BugGuardian.MVC
+```
 
 **WARNING**: If you are experiencing an error like *"BugGuardian.MVC already has a dependency defined for XXX"*, update your NuGet client to the latest version
 
