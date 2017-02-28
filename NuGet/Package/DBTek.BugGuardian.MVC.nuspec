@@ -2,7 +2,7 @@
 <package>
 	<metadata>
 		<id>DBTek.BugGuardian.MVC</id>
-		<version>1.0.0</version>
+		<version>2.0.0</version>
 		<title>BugGuardian.MVC</title>
 		<authors>Davide Benvegnu</authors>    
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -10,17 +10,17 @@
 		<licenseUrl>https://github.com/n3wt0n/BugGuardian.MVC/blob/master/LICENSE.md</licenseUrl>
 		<description>BugGuardian.MVC is the official Asp.net MVC extension for BugGuardian.
 		
-BugGuardian is a library, written in C# like Shared Project, that allows to easily create a Bug or Task work item on your Visual Studio Team Services account or on your on-premises Team Foundation Server in the case your application throws an Unhandled Exception. 
+BugGuardian is a library, written in C# targeting NetStandard 1.1, that allows to easily create a Bug or Task work item on your Visual Studio Team Services account or on your on-premises Team Foundation Server in the case your application throws an Unhandled Exception. 
 		
 It can also be invoked manually in try/catch blocks to keep track of handled exceptions.
 
-This package works with .Net Framework 4 and above.
+This package works with .Net Framework 4.5 and above.
 		</description>
 		<summary>BugGuardian.MVC is the official Asp.net MVC extension for BugGuardian.</summary>
 		<releaseNotes />
 		<tags>Bug TFS VSTS Team Foundation Server Visual Studio Team Services Unhandled Exceptions Exception MVC Asp.net</tags>
 		<dependencies>			
-			<dependency id="DBTek.BugGuardian" version="1.3.0" />				
+			<dependency id="DBTek.BugGuardian" version="2.0.1" />				
 		</dependencies>
 	</metadata>
 </package>
