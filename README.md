@@ -1,7 +1,7 @@
 # BugGuardian.MVC
 [//]: #(![](https://dbtek.visualstudio.com/_apis/public/build/definitions/31dcc845-6a11-47d7-90a5-1c340cebf0f1/33/badge))
 
-Easily track you Asp.net MVC exceptions on VSTS and TFS
+Easily track you ASP.NET MVC exceptions on VSTS and TFS
 -------------------------------------------------------
 **BugGuardian.MVC** is an extension for [*BugGuardian*](https://github.com/n3wt0n/BugGuardian) (a library that allows to easily create a Bug or a Task work item on your *Visual Studio Team Services* account or on your on-premises *Team Foundation Server 2015* in the case your application throws an Unhandled Exception) specifically written to support ASP.NET MVC applications. It adds an Action Filter to your application to let you automatically intercept all the exceptions.
 
