@@ -44,6 +44,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -58,8 +59,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\BugGuardianConfiguration.cs" />
+    <Compile Include="Config\BugGuardianSettingCollection.cs" />
+    <Compile Include="Config\BugGuardianSettingElements.cs" />
+    <Compile Include="Config\ConfigurationSettings.cs" />
     <Compile Include="Filters\BugGuardianTaskHandleErrorAttribute.cs" />
     <Compile Include="Filters\BugGuardianBugHandleErrorAttribute.cs" />
+    <Compile Include="Helpers\ConfigurationHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,10 +74,7 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Config\" />
-    <Folder Include="Helpers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
