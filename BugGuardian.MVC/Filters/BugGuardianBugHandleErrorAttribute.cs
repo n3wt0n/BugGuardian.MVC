@@ -5,13 +5,13 @@ namespace DBTek.BugGuardian.MVC.Filters
     public class BugGuardianBugHandleErrorAttribute : HandleErrorAttribute
     {
         public override void OnException(ExceptionContext filterContext)
-        {            
+        {
             base.OnException(filterContext);
-            
-            using (var creator = new Creator())
+
+            using (var manager = new BugGuardianManager())
             {
                 //Implemented as synchronous because Asp.net doesn't support async filters
-                creator.AddBug(filterContext.Exception);
+                manager.AddBug(filterContext.Exception);
             }
         }
     }
