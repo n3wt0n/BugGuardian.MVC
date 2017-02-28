@@ -2,7 +2,7 @@
 
 namespace DBTek.BugGuardian.MVC.Filters
 {
-    public class BugGuardianBugHandleErrorAttribute : HandleErrorAttribute
+    public class BugGuardianBugHandleErrorAttribute : BugGuardianBaseHandleErrorAttribute
     {
         public override void OnException(ExceptionContext filterContext)
         {

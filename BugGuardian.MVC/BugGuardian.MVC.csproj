@@ -63,6 +63,7 @@
     <Compile Include="Config\BugGuardianSettingCollection.cs" />
     <Compile Include="Config\BugGuardianSettingElements.cs" />
     <Compile Include="Config\ConfigurationSettings.cs" />
+    <Compile Include="Filters\BugGuardianBaseHandleErrorAttribute.cs" />
     <Compile Include="Filters\BugGuardianTaskHandleErrorAttribute.cs" />
     <Compile Include="Filters\BugGuardianBugHandleErrorAttribute.cs" />
     <Compile Include="Helpers\ConfigurationHelper.cs" />
