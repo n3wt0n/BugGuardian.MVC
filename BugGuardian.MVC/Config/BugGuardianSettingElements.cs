@@ -11,23 +11,13 @@
         /// </summary>
         [System.Configuration.ConfigurationProperty("key", IsRequired = true)]
         public string Key
-        {
-            get
-            {
-                return this["key"] as string;
-            }
-        }
+            => this["key"] as string;
 
         /// <summary>
         /// Returns the setting value.
         /// </summary>
         [System.Configuration.ConfigurationProperty("value", IsRequired = true)]
         public string Value
-        {
-            get
-            {
-                return this["value"] as string;
-            }
-        }
+            => this["value"] as string;
     }
 }

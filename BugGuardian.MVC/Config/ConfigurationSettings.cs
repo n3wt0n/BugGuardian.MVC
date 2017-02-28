@@ -83,9 +83,7 @@ namespace DBTek.BugGuardian.MVC.Config
             /// </summary>
             [System.Diagnostics.DebuggerNonUserCode()]
             public override void Clear()
-            {
-                throw new Exception("The configuration is read only.");
-            }
+                => new Exception("The configuration is read only.");
 
             /// <summary>
             /// This configuration is read only and calling this 
@@ -93,9 +91,7 @@ namespace DBTek.BugGuardian.MVC.Config
             /// </summary>
             [System.Diagnostics.DebuggerNonUserCode()]
             public override void Add(string name, string value)
-            {
-                throw new Exception("The configuration is read only.");
-            }
+                => new Exception("The configuration is read only.");
 
             /// <summary>
             /// This configuration is read only and calling this method 
@@ -103,9 +99,7 @@ namespace DBTek.BugGuardian.MVC.Config
             /// </summary>
             [System.Diagnostics.DebuggerNonUserCode()]
             public override void Remove(string name)
-            {
-                throw new Exception("The configuration is read only.");
-            }
+                => new Exception("The configuration is read only.");
 
             /// <summary>
             /// This configuration is read only and calling this 
@@ -113,9 +107,7 @@ namespace DBTek.BugGuardian.MVC.Config
             /// </summary>
             [System.Diagnostics.DebuggerNonUserCode()]
             public override void Set(string name, string value)
-            {
-                throw new Exception("The configuration is read only.");
-            }
+                => new Exception("The configuration is read only.");
             #endregion
         }
         #endregion
