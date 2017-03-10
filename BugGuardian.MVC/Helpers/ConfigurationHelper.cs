@@ -21,5 +21,8 @@
 
         public static bool AvoidMultipleReport
            => bool.Parse(Config.ConfigurationSettings.AppSettings["AvoidMultipleReport"] ?? "true");
+
+        public static bool AssignToCurrentIteration
+           => bool.Parse(Config.ConfigurationSettings.AppSettings["AssignToCurrentIteration"] ?? "true");
     }
 }

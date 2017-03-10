@@ -13,7 +13,8 @@ namespace DBTek.BugGuardian.MVC.Filters
                 ConfigurationHelper.Password,
                 ConfigurationHelper.CollectiontName,
                 ConfigurationHelper.ProjectName,
-                ConfigurationHelper.AvoidMultipleReport);
+                ConfigurationHelper.AvoidMultipleReport, 
+                ConfigurationHelper.AssignToCurrentIteration);
         }
     }
 }
