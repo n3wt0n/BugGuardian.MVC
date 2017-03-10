@@ -2,7 +2,7 @@
 <package>
 	<metadata>
 		<id>DBTek.BugGuardian.MVC</id>
-		<version>2.0.0</version>
+		<version>2.1.0</version>
 		<title>BugGuardian.MVC</title>
 		<authors>Davide Benvegnu</authors>    
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -20,7 +20,7 @@ This package works with .Net Framework 4.5 and above.
 		<releaseNotes />
 		<tags>Bug TFS VSTS Team Foundation Server Visual Studio Team Services Unhandled Exceptions Exception MVC Asp.net</tags>
 		<dependencies>			
-			<dependency id="DBTek.BugGuardian" version="2.0.1" />				
+			<dependency id="DBTek.BugGuardian" version="2.1.0" />				
 		</dependencies>
 	</metadata>
 </package>
