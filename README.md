@@ -5,7 +5,7 @@
 
 ## Easily track you ASP.NET Core exceptions on Azure DevOps and TFS
 
-**BugGuardian.MVC** is an extension for [*BugGuardian*](https://github.com/n3wt0n/BugGuardian) a library that allows to easily create a Bug or a Task work item on your *Azure DevOps* account or on your on-premises *Azure DevOps Server* and *Team Foundation Server 2015, 2017 and 2018* in the case your application throws an Unhandled Exception) specifically written to support ASP.NET MVC applications on Full .Net Framework. It adds an Action Filter to your application to let you automatically intercept all the exceptions.
+**BugGuardian.MVC** is an extension for [*BugGuardian*](https://github.com/n3wt0n/BugGuardian), a library that allows to easily create a Bug or a Task work item on your *Azure DevOps* account or on your on-premises *Azure DevOps Server* and *Team Foundation Server 2015, 2017 and 2018* in the case your application throws an Unhandled Exception) specifically written to support ASP.NET MVC applications on Full .Net Framework. It adds an Action Filter to your application to let you automatically intercept all the exceptions.
 
 It supports projects with .Net Framework 4.5 and above.
 
