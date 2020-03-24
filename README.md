@@ -1,5 +1,5 @@
 # BugGuardian.MVC
-![Build Status](https://dbtek.visualstudio.com/_apis/public/build/definitions/31dcc845-6a11-47d7-90a5-1c340cebf0f1/33/badge)
+![CI](https://github.com/n3wt0n/BugGuardian.MVC/workflows/CI/badge.svg)
 [![Release](https://img.shields.io/github/release/n3wt0n/BugGuardian.MVC.svg)](https://github.com/n3wt0n/BugGuardian.MVC/releases/latest)
 [![License](https://img.shields.io/github/license/n3wt0n/BugGuardian.MVC.svg)](https://github.com/n3wt0n/BugGuardian.MVC/blob/master/LICENSE)
 
@@ -31,3 +31,4 @@ Refer to the [BugGuardian project documentation](https://github.com/n3wt0n/BugGu
 ### Support
 
 If you encounter some issues trying this library, please let me know through the [Issues page](https://github.com/n3wt0n/BugGuardian.MVC/issues) and I'll fix the problem as soon as possible!
+
