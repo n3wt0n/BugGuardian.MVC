@@ -98,8 +98,8 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
-start xcopy "DBTek.BugGuardian.MVC.dll" "$(SolutionDir)NuGet\Package\lib" /R /Q /Y
-start xcopy "DBTek.BugGuardian.MVC.xml" "$(SolutionDir)NuGet\Package\lib" /R /Q /Y
+start xcopy "DBTek.BugGuardian.MVC.dll" "$(SolutionDir)NuGet\Package\lib\" /R /Q /Y
+start xcopy "DBTek.BugGuardian.MVC.xml" "$(SolutionDir)NuGet\Package\lib\" /R /Q /Y
 )</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
