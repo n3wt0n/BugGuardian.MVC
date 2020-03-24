@@ -31,3 +31,4 @@ Refer to the [BugGuardian project documentation](https://github.com/n3wt0n/BugGu
 ### Support
 
 If you encounter some issues trying this library, please let me know through the [Issues page](https://github.com/n3wt0n/BugGuardian.MVC/issues) and I'll fix the problem as soon as possible!
+
